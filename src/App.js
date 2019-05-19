@@ -3,13 +3,14 @@ import "./App.scss";
 import { Container, Section } from 'rbx';
 import Header from "./components/header";
 import Home from "./screens/home";
+import Routes from './routes';
 
 const App = () => (
   <div>
     <Header />
     <Section>
       <Container>
-        <Home />
+        <Routes />
       </Container>
     </Section>
   </div>
